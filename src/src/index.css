@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Custom scrollbar for the entire page */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0056b3;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #003c80;
+}
+
+/* SweetAlert2 custom styles */
+.swal-title {
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+}
+
+.swal-button {
+  font-weight: 500 !important;
+  border-radius: 4px !important;
+  padding: 8px 24px !important;
+}
+
+/* Smooth transitions for all elements */
+button, a, input, select, textarea {
+  transition: all 0.2s ease-in-out;
+}
